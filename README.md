@@ -1,8 +1,9 @@
 Configuring the plugin
 ====
 
-1. Create the Config/config.php based on Config/config.example.php
-2. Add your sitekey and secret to Config/config.php
+1. Put this plugin into your application's app/Plugin folder
+2. Create the Config/config.php based on Config/config.example.php
+3. Add your sitekey and secret to Config/config.php
 
 Loading the plugin
 ====
