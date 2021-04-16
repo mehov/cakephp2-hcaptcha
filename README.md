@@ -1,14 +1,14 @@
 Configuring the plugin
 ====
 
-1. Put this plugin into your application's app/Plugin folder
-2. Create the Config/config.php based on Config/config.example.php
-3. Add your sitekey and secret to Config/config.php
+1. Put this plugin into your application's `app/Plugin` folder
+2. Create the `Config/config.php` based on `Config/config.example.php`
+3. Add your sitekey and secret to `Config/config.php`
 
 Loading the plugin
 ====
 
-1. Load via adding `CakePlugin::load('hCaptcha');` to your app/Config/bootstrap.php
+1. Load via adding `CakePlugin::load('hCaptcha');` to your `app/Config/bootstrap.php`
 2. In a controller displaying the challenge, `public $helpers = array('hCaptcha.hCaptcha');`
 3. In a controller verifying the challenge, `public $components = array('hCaptcha.hCaptcha');`
 
